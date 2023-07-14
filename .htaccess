@@ -1,0 +1,4 @@
+<Limit GET HEAD POST PUT DELETE OPTIONS>
+    # Apache 2.4 
+    Require all granted
+</Limit>

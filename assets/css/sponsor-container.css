@@ -1,0 +1,10 @@
+.sponsors-title-container{
+    padding-top: 150px;
+    border:1px solid #FFF;
+    height: 200px;
+    display: flex;
+}
+.sponsors-title{
+    border: 1px solid #fba922;
+    display: inline-block;
+}

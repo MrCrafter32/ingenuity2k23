@@ -1,0 +1,848 @@
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>ingeNUity | Casimir</title>
+        
+        <!--This bit will pop under the title if you search for ingenuity-->
+        <meta content="The cultural fest of NIIT University, Neemrana, ingeNUity is three days of electrifying performances, thrilling events and mesmerizing music." name="description"  >
+        <meta content="" name="keywords"  >
+
+        <!-- Google Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />-->
+        
+        <!-- Favicon -->
+        <link href="assets/img/favicon.png" rel="icon">
+
+        <!-- JS -->
+	    <script defer src="assets/js/mobile-menu.js"></script><!-- mobile-menu js -->
+        <script defer src="assets/js/navbar.js"></script><!-- mobile-navbar js -->
+        <script defer src="assets/js/countdown.js"></script><!-- countdown js -->
+	    <script defer src="assets/js/scroll.js"></script><!--smooth scrolling js-->
+        <script defer src="assets/js/scroll_animation.js"></script><!--animation on scrolling js-->
+        <script defer src="assets/js/legacy.js"></script><!--Legacy timeline js-->
+        <script defer src="assets/js/ticket.js"></script><!--Ticket JS-->
+        
+        <!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+        
+        <!-- Auxillary CSS files(for timeline, mini sponsor wall etc) -->
+        <link href="assets/css/legacy-timeline.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/vendor.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		
+        <!--Main CSS file-->
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!---->
+        <section class="header">
+            <nav class="navbar">
+                <div class="content">
+                    <div class="navbar-logo"><a href="index.html">INGENUITY</a></div>
+                    <ul class="navbar-links"> 
+                        <div class="icon cancel-button"><i class="material-icons">close</i></div>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#intro">ABOUT US</a></li>
+                        <li><a href="#timeline">TIMELINE</a></li>
+                        <li><a href="pre-events.html">PRE-EVENTS</a></li>
+                        <li><a href="#core">CORE</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="sponsors.html">SPONSORS</a></li>
+                        <li><a href="#contact">CONTACT US</a></li>
+                    </ul>
+                    <div class="icon menu-button"><i class="material-icons">menu</i></div>
+                </div>
+            </nav>
+
+            <div class="hidden-banner main-banner">
+                <div class="banner-content">
+                    <div class="fest">IngeNUity '23</div>
+                    <div class="theme">CASIMIR</div>
+                    <a href="#registration" style="text-decoration: none; color: #fff;"><div class="button">Register now!</div></a>
+                </div>
+            </div>
+        </section>
+
+        <!--<section class="legacy">
+            <div class=content><div class="section-header">Our Legacy: ingeNUity through the years</div></div>
+            <div class="carousel">
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Paris</div>
+                    <div class="num">2010</div>
+                    <img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Warsaw</div>
+                    <div class="num">2011</div>
+                    <img src="https://media.istockphoto.com/id/1150545984/it/foto/palazzo-moderno-di-lusso-con-piscina.jpg?s=612x612&w=0&k=20&c=Pbrai_VGc9tUviMCF1UaBErdS1YGyIVWsD29jzMZwTY=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Madrid</div>
+                    <div class="num">2012</div>
+                    <img src="https://media.istockphoto.com/id/1214351345/it/foto/guardando-direttamente-lo-skyline-del-quartiere-finanziario-nel-centro-di-londra-immagine-di.jpg?s=612x612&w=0&k=20&c=oNNbPzPvcQ-4RA6AeatNIxHQIafBiXmDRtUUY0Ska-I=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Sydney</div>
+                    <div class="num">2013</div>
+                    <img src="https://media.istockphoto.com/id/904390980/it/foto/foto-di-architettura-contemporanea-astratta.jpg?s=612x612&w=0&k=20&c=_P4Wmx5nq5MeDuimpNklKCBlrLovmCyd9lfiMKeJZDs=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Istanbul</div>
+                    <div class="num">2014</div>
+                    <img src="https://media.istockphoto.com/id/130408311/it/foto/piscina-allesterno-della-casa-moderna-al-crepuscolo.jpg?s=612x612&w=0&k=20&c=ZoVjx7uDjoHKmpM1ayW6UR1SQOoYh_xx-QMG_qeOYs0=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Prague</div>
+                    <div class="num">2015</div>
+                    <img src="https://media.istockphoto.com/id/1299954175/it/foto/villa-cubica-moderna.jpg?s=612x612&w=0&k=20&c=DhGhb3c1E3DW_fbrWJ_R_Zh0Lbwu6syFeRLsKlZ9no8=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Munich</div>
+                    <div class="num">2016</div>
+                    <img src="https://media.istockphoto.com/id/926689776/it/foto/vista-ad-angolo-basso-dei-grattacieli-di-new-york.jpg?s=612x612&w=0&k=20&c=DmEB0Ty7ZwDnBoU5SuA8FNevOp4G1UcECw5aS4vA9A8=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Venice</div>
+                    <div class="num">2017</div>
+                    <img src="https://media.istockphoto.com/id/1191376167/it/foto/villa-dellisola.jpg?s=612x612&w=0&k=20&c=PKslWo4FdbjinohKQlK_oWL34jqAsnzMTdy2bxEAf-I=" />
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Oslo</div>
+                    <div class="num">2018</div>
+                    <img src="https://media.istockphoto.com/id/184316397/it/foto/londra-edifici-aziendali.jpg?s=612x612&w=0&k=20&c=XqrRxEPzFnwRFk7PQrCiu9-FPfCTPyMe5BKKaxYXCs8=" />
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">London</div>
+                    <div class="num">2019</div>
+                    <img src="https://media.istockphoto.com/id/184619832/it/foto/distretto-finanziario-al-crepuscolo-londra.jpg?s=612x612&w=0&k=20&c=RAThrJOBY6vhlT6-kQpu9-9jLEzWToYfdw46S8B0Mu0=" />
+                  </div>
+                </div>
+              <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Munich</div>
+                    <div class="num">2020</div>
+                    <img src="https://media.istockphoto.com/id/926689776/it/foto/vista-ad-angolo-basso-dei-grattacieli-di-new-york.jpg?s=612x612&w=0&k=20&c=DmEB0Ty7ZwDnBoU5SuA8FNevOp4G1UcECw5aS4vA9A8=" />
+                  </div>
+                </div>
+              <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="title">Jekyll & Hyde</div>
+                    <div class="num">2022</div>
+                    <img src="assets/img/specials-1.jpg" />
+                  </div>
+                </div>
+ 
+              </div>
+            
+              <script src="assets/js/legacy.js"></script>
+        </section> -->
+        
+	    <section class="slider-wrapper">
+          <button class="slide-arrow" id="slide-arrow-prev">
+            &#8249;
+          </button>
+          <button class="slide-arrow" id="slide-arrow-next">
+            &#8250;
+          </button>
+          <ul class="intro-slides-container" id="slides-container">
+            <li class="slide">
+              <div class="placeholder hidden-banner">
+                <p>Hi! Are you new here? </p>
+
+                    <p>Seemed like it. Do you want me to give a tour? It wouldn't be a problem, honestly.</p>
+
+                    <p>I'll be more than happy to do so.</p>
+
+                    <p>It's been so long since we saw someone like you anyways. Would be a nice change of pace.</p>
+
+                    <p>Oh sorry, I meant that in the best way possible. You look different from everyone else here.</p>
+
+                    <p>No, nothing about the way you dress. It's just your aura, it feels concrete, defined, in complete contrast to our surroundings. We arose from rubble, perhaps would die here as well.</p>
+              </div>
+            </li>
+
+			<li class="slide">
+              <div class="placeholder hidden-banner">
+                <p>Ah, don't mind me, just blabbering. Old habit and I'm a creature of habit. These temples, you see and those halls over there, made of pure validation. Yeah, turns out not as strong of material as they had proclaimed. One crack and 'boom'! Don't worry, I know how this looks, the further we walk in the more old these arches seem, but they really aren't. They are just a testament of the massacre we went through.</p>
+
+                <p>Oh, please don't be scared. Trust me, it's an interesting place, much like the gardens of underworld, one taste and you can never get enough. You know, once i was like you, young and beautiful, but time, it takes a toll on everyone. It's like a relationship which is free of your consent, you have no right over it, but to hopelessly surrender.</p>
+
+                <p>When i was your age, this place was no less than a dystopia, with mansions forever lit, gardens ever-blooming, dances everywhere and a chirp in the air. so fresh, so kind. and then, the tragedy struck, if we can call it that.</p>
+              </div>
+            </li>
+            
+			<li class="slide">
+			  <div class="placeholder">
+				<p>The battle of reality.</p>
+
+				<p>The singing of the birds now replaced with wails and gold-glittered ceilings with crumbling arches. Our glasses were too far from being full. Barely any water anywhere, raw commotion everywhere.</p>
+
+				<p>But, one fine day, a group of young adults, found their way here, accidentally, of course, much like yourself, I'm supposing. They saw transcendence in this destruction and paved a way through our rust covered illusions.</p>
+				<p>Sitting on a sidewalk, they started a symphony, grasping everyones' attention emotionally. The music was literal to our ears and the melodies had never been sweeter, a mixture of nostalgia and melancholy.</p>
+			  </div>
+			</li>
+			
+			<li class="slide">
+			  <div class="placeholder">
+				<p>Don't cry, love! Your visit here has been just as fated.</p>
+
+				    <p>I don't know, nothing concrete, just the resonance of your being speaks to me.</p>
+
+				    <p>Don't take it so lightly, it’s not a tale to scare kids at night.</p>
+				    
+				    <p>Oh, one more thing, before you leave. I didn't catch your name, but can I make a guess?</p>
+
+				    <p>Is it Hope?</p>
+
+				    <p>Don't ask me how I know, I'll repeat the same as before. But anyhow, hello Hope! Welcome to Casimir.</p>
+			  </div>
+			</li>
+          </ul>
+        </section>	
+		<script src="assets/js/carousel.js"></script>
+    
+        
+
+        <!--<div class="place-holder hidden">
+            <p>Hi! Are you new here? </p>
+
+            <p>Seemed like it. Do you want me to give a tour? It wouldn't be a problem, honestly.</p>
+
+            <p>I'll be more than happy to do so.</p> 
+
+            <p>It's been so long since we saw someone like you anyways. Would be a nice change of pace.</p>
+            
+            <p>Oh sorry, I meant that in the best way possible. You look different from everyone else here.</p> 
+
+            <p>No, nothing about the way you dress. It's just your aura, it feels concrete, defined, in complete contrast to our surroundings. We arose from rubble, perhaps would die here as well.</p> 
+
+            <p>Ah, don't mind me, just blabbering. Old habit and I'm a creature of habit. These temples, you see and those halls over there, made of pure validation. Yeah, turns out not as strong of material as they had proclaimed. One crack and 'boom'! Don't worry, I know how this looks, the further we walk in the more old these arches seem, but they really aren't. they are just a testament of the massacre we went through.</p> 
+
+            <p>Oh, please don't be scared. Trust me, it's an interesting place, much like the gardens of underworld, one taste and you can never get enough. You know, once I was like you, young and beautiful, but time, it takes a toll on everyone. It's like a relationship which is free of your consent, you have no right over it, but to hopelessly surrender.</p>
+
+            <p>When I was your age, this place was no less than a dystopia, with mansions forever lit, gardens ever-blooming, dances everywhere and a chirp in the air. So fresh, so kind. And then, the tragedy struck, if we can call it that.</p>
+            
+            <p>The battle of reality.</p>
+
+            <p>The singing of the birds now replaced with wails and gold-glittered ceilings with crumbling arches. Our glasses were too far from being full. Barely any water anywhere, raw commotion everywhere.</p>
+
+            <p>But, one fine day, a group of young adults, found their way here, accidentally, of course, much like yourself, I'm supposing. They saw transcendence in this destruction and paved a way through our rust covered illusions. Sitting on a sidewalk, they started a symphony, grasping everyones' attention emotionally. The music was literal to our ears and the melodies had never been sweeter, a mixture of nostalgia and melancholy.</p>
+
+            <p>Don't cry, love! Your visit here has been just as fated.</p>
+
+            <p>I don't know, nothing concrete, just the resonance of your being speaks to me.</p>
+
+            <p>Don't take it so lightly, it’s not a tale to scare kids at night.</p>
+            
+            <p>Oh, one more thing, before you leave. I didn't catch your name, but can I make a guess?</p>
+
+            <p>Is it Hope?</p>
+
+            <p>Don't ask me how I know, I'll repeat the same as before. But anyhow, hello Hope! Welcome to Casimir.</p>
+        </div>-->
+		
+		<a id="intro"></a>
+		<section class="about-us">
+			<div class="content">
+				<div class="section-header">About us</div>
+				<p>Popularly known as the cultural fest of NIIT university, it is not just that. Surrounded by the aravalis, away from the city pollution, but commanding the same impact. For those who work here, IngeNUity has succeeded the shackles of being a mere a fest, it is an emotion. No boundaries of teams bind anyone, somehow, at the end everyone works for everything. From the CR ka mahaul to fest ka bhoochal, IngeNUity is an emotional expedition which starts with a spectrum and ends with white colossal frenzy.</p>
+			</div>
+		</section>
+    
+
+    <!--<section class="pre-events">
+        <div class="content">
+            <div class="section-header">Pre-Events</div>
+            <div class="preevent">
+                <div class="pre-desc">
+                    <h1>Open Meet</h1>
+                    <p>The theme for IngeNUity 2023 was revealed at the open meet which was conducted in November 2022. Many easter eggs were left around campus prior to the theme reveal for students to find and guess what the theme was. </p>
+                    <p>The previous theme, Jekyll and Hyde, depicted two sides of the same coin—one good and the other evil. And now the dimension is thriving another galaxy of the same universe. It is a place where all peace is procured and where it ends also. </p>
+                    <p>Performances from our artists in art clubs like Kavishaala, Impetus, and Verismo equally graced the event. Our fashion society, Prism, curated their entire performance based on the theme, setting the stage on fire. The fest core was introduced, and they revealed the theme.</p>
+                    <p>CASIMIR: where left isn’t right and right isn’t left. </p>
+                    <p>Let the dark period begin.</p>
+                </div>
+                <div class="pre-img"><img src="assets/img/gallery/IMG_7108.jpg"></div>
+            </div>
+        </div>
+    </section>-->
+
+	<a id="timeline"></a>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<section id="event-list" class="timeline_area section_padding_130">
+	<!--<h1 class="page-heading timeline-heading">TIMELINE</h1>-->
+	<div class="content">
+		<div class="section-header">Timeline</div>
+		<div class="container">
+		    <div class="row justify-content-center">
+		        <div class="col-12 col-sm-8 col-lg-6">
+		            <!-- Section Heading-->
+		            <div class="section_heading text-center">
+		                <!-- <h6>Our History</h6> -->
+		                <!-- <h3>A brief stories of our 2 years company journey</h3> -->
+		                <div class="line"></div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="row">
+		        <div class="col-12">
+		            <!-- Timeline Area-->
+		            <div class="apland-timeline-area">
+		                <!-- Single Timeline Content-->
+		                <!--<div class="single-timeline-area">
+		                    <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+		                        <h3>Day 1 <br> 16th April</h3>
+		                    </div>
+		                    <div class="row">
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div> 
+		                                <div class="timeline-text">
+		                                    <h3 class="page-content">Flash Mob</h3>
+		                                    <p class="page-content">6-8 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+		                                <div class="timeline-text">
+		                                    <h3 class="page-content">All Stars Basketball</h3>
+		                                    <p>8-10 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> 
+										<div class="timeline-text">
+		                                    <h3 class="page-content">DJ 1</h3>
+		                                    <p>10-12 AM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>-->
+						<div class="single-timeline-area">
+		                    <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+		                        <h3>Day 1 <br> 21 Apr</h3>
+		                    </div>
+		                    <div class="row">
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div> -->
+		                                <div class="timeline-text">
+		                                    <h3>Opening Ceremony(OC)</h3>
+		                                    <p>6:00 PM - 8:00 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+		                                <div class="timeline-text">
+		                                    <h3>Battle of Bands(BOB)</h3>
+		                                    <p>8:00 PM - 10:30 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Filler Performance</h3>
+		                                    <p>10:30PM - 11 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Band Performance</h3>
+		                                    <p>11:00 PM - 12 AM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>DJ 1</h3>
+		                                    <p>12-1:30 AM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>DJ 2</h3>
+		                                    <p>1:30 AM - 3:00 AM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+						<hr>
+						
+						<div class="single-timeline-area">
+		                    <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+		                        <h3>Day 2 <br> 22 Apr</h3>
+		                    </div>
+		                    <div class="row">
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div> -->
+		                                <div class="timeline-text">
+		                                    <h3>Street Play</h3>
+		                                    <p>11:00 AM - 4:00 PM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+		                                <div class="timeline-text">
+		                                    <h3>Monologue</h3>
+		                                    <p>4:00 PM-5:00 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Flash Mob</h3>
+		                                    <p>6:00 PM - 7:00 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Fashion Walk</h3>
+		                                    <p>7:00 PM - 10:30 PM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Artist 1</h3>
+		                                    <p>10:30 PM - 12:00 AM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>DJ 3</h3>
+		                                    <p>12:00 AM - 1:30 AM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>DJ 4</h3>
+		                                    <p>1:30 AM - 3:00 AM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+						<hr>
+						
+						<div class="single-timeline-area">
+		                    <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+		                        <h3>Day 3 <br> 23 Apr</h3>
+		                    </div>
+		                    <div class="row">
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div> -->
+		                                <div class="timeline-text">
+		                                    <h3>Open Mic</h3>
+		                                    <p>11:00 AM - 1:00 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+		                                <div class="timeline-text">
+		                                    <h3>Group Singing</h3>
+		                                    <p>2:00 PM - 4:00 PM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Solo Singing</h3>
+		                                    <p>4:00 PM - 5:00 PM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Solo Dance</h3>
+		                                    <p>5:00 PM - 6:00 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Duet Dance</h3>
+		                                    <p>6:00 PM - 7:00 PM </p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Group Dance</h3>
+		                                    <p>7:00 PM - 10:00 PM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Artist 2</h3>
+		                                    <p>10:00 PM - 11:00 PM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>Closing Ceremony(CC)</h3>
+		                                    <p>11:00 PM - 12:00 AM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+								<div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>DJ 5</h3>
+		                                    <p>12:00 PM - 1:30 AM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-12 col-md-6 col-lg-4">
+		                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+		                                <!-- <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div> -->
+										<div class="timeline-text">
+		                                    <h3>DJ 6</h3>
+		                                    <p>1:30 PM - 3:00 AM</p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		                
+		                
+		              
+		            </div>
+		        </div>
+		    </div>
+		</div>
+    </div>
+</section>
+
+        <a id="core"></a>
+        <!-- Core showcase -->
+        <section class="core">
+            <div class="content">
+                <div class="section-header">Core</div>
+                <div class="core-row">
+                    <img src="assets/img/core/Sarpotdar.png">
+                    <img src="assets/img/core/Parashar.png">
+                    <img src="assets/img/core/Mehta.png">
+                    <img src="assets/img/core/Bhoyar.png">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gallery -->
+        <section class="artist-lineup">
+            <div class="content">
+                <div class="section-header">Artist-lineup</div>
+                <div class="gallery-row">
+                    <img src="assets/img/artists/prerak.png">
+                    <img src="assets/img/artists/chesta.png">
+                    <img src="assets/img/artists/tracer.png">
+                </div>
+                <div class="gallery-row">
+                    <img src="assets/img/artists/septunes.png">
+                    <img src="assets/img/artists/dna.png">
+                    <img src="assets/img/artists/nodrop.png">
+                </div>
+            </div>
+        </section>
+
+        <a id="gallery"></a>
+        <!-- Gallery -->
+        <section class="gallery">
+            <div class="content">
+                <div class="section-header">Gallery</div>
+                <div class="gallery-row">
+                    <img src="assets/img/gallery/IMG_7108.jpg">
+                    <img src="assets/img/gallery/gallery-2.jpg">
+                    <img src="assets/img/gallery/gallery-3.jpg">
+                </div>
+                <div class="gallery-row">
+                    <img src="assets/img/gallery/gallery-4.jpg">
+                    <img src="assets/img/gallery/gallery-5.jpg">
+                    <img src="assets/img/gallery/IMG_4651.jpg">
+                </div>
+            </div>
+        </section>
+       
+        <section class="core-gallery">
+            <div class="bruh"></div>
+        </section>
+
+        <a id="registration"></a>
+        <!-- Registration Section -->
+        <section class="registration">
+            <form class="registration-form" action="insert.php" method="post">
+                <!--<div class="flux">Register</div>i<br>-->
+                <div class="form-title">Registration</div>
+                <!--<hr class="seagull"><br>-->
+                <div class="registration-row">
+                    <div class="inputBox">
+                        <input type="text" required="required" name="first-name">
+                        <span><label>First Name</label></span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required" name="last-name">
+                        <span><label>Last Name</label></span>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <input type="email" required="required" name="email">
+                    <span><label>E-mail</label></span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="tel" required="required" name="phone">
+                    <span><label>Phone Number</label></span>
+                    <i></i>
+                </div>
+                <!--<div class="inputBox">
+                    <input type="text" required="required" id="loan">
+                    <span><label>Stucred Loan ID</label></span>
+                    <i></i>
+                </div>-->
+                <div class="inputBox">
+                    <input type="text" required="required" name="uni">
+                    <span><label>University</label></span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" name="city">
+                    <span><label>City</label></span>
+                    <i></i>
+                </div>
+
+                <div class="registration-row">
+                    <div class="inputBox">
+                        <input type="number" required="required" name="n-tickets">
+                        <span><label>Number of tickets</label></span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox">
+                        <select id="type" name="type">
+                            <option hidden disabled selected>Participant or Visitor?</option>
+                            <option value="participant">Participant</option>
+                            <option value="visitor">Visitor</option>
+                        </select>
+                        <i></i>
+                    </div>
+                </div>
+                
+                <br><br>
+                <!-- this bit appears if user selects participant  -->
+                <div class="form-section">Point of Contact(POC) details(Fill this if you are participating in any events)</div>
+                	<br>
+                	<div class="inputBox">
+		                <select id="event" name="event">
+		                    <option hidden disabled selected>Select competition</option>
+		                    <option value="bob">Battle of the Bands</option>
+		                    <option value="solo_dance">Solo Dance</option>
+		                    <option value="group_dance">Group Dance</option>
+		                    <option value="solo_singing">Solo Singing</option>
+		                    <option value="group_singing">Group Singing</option>
+		                    <option value="nukkad">Street Play</option>
+		                    <option value="monologue">Monologue</option>
+		                    <option value="open_mic">Open Mic</option>
+		                	<option value="fashion_walk">Fashion Walk</option>
+		               	<select>
+		            	<i></i>
+					</div>
+					
+                    <div class="inputBox">
+                        <input type="text" name="poc1_name">
+                        <span><label>Name of First POC</label></span>
+                        <i></i>
+                    </div>
+					<div class="registration-row">
+						<div class="inputBox">
+				            <input type="email" name="poc1_email">
+				            <span><label>E-mail of First POC</label></span>
+				            <i></i>
+				        </div>
+				        <div class="inputBox">
+				            <input type="tel" name="poc1_phone">
+				            <span><label>Ph No. of First POC</label></span>
+				            <i></i>
+				        </div>						
+					</div>
+					<br>
+					<div class="inputBox">
+                        <input type="text" name="poc2_name">
+                        <span><label>Name of Second POC</label></span>
+                        <i></i>
+                    </div>
+
+
+					<div class="registration-row">
+						<div class="inputBox">
+				            <input type="email" name="poc2_email">
+				            <span><label>E-mail of Second POC</label></span>
+				            <i></i>
+				        </div>
+				        <div class="inputBox">
+				            <input type="tel" name="poc2_phone">
+				            <span><label>Ph No. of Second POC</label></span>
+				            <i></i>
+				        </div>						
+					</div>
+					
+					<div class="inputBox">
+                        <input type="number" name="n-participants">
+                        <span><label>Number of Participants</label></span>
+                        <i></i>
+                    </div>
+                    
+                    
+                    Please write your team members names in a google doc, and submit that link in the field below: 
+                    
+                    <div class="inputBox">
+                        <input type="text" name="team_members">
+                        <span><label>team member's google doc</label></span>
+                        <i></i>
+                    </div>
+                    <div class="total_price" style="font-size: 20px; margin-bottom: 10px;">
+                        Visitor Tickets are ₹150, and Participant Tickets are ₹250.<br> 
+                        Please pay the amount to UPI ID: 9990499107633@paytm. 
+                    </div>
+                <input type="submit" name="register" class="register" value="REGISTER NOW!">
+            </form>
+        </section>
+
+	    <a id="contact"></a>
+        <section class="footer">
+            <footer class="foot">
+                <div class="footer-column">
+                    <div class="about-us">
+                        The cultural fest of NIIT University, Neemrana, ingeNUity is three days of electrifying performances, thrilling events and mesmerizing music.
+                    </div>    
+                </div>
+                <div class="footer-column">
+                    <div class="address">
+                        <!--<i class="material-icons">location_on</i>-->
+                        <b>Address:</b>
+                        <p>NIIT University, 
+                            <br>NH 8, Delhi - Jaipur Expressway, 
+                            <br>Neemrana, Rajasthan, 301705</p>
+                        <br>
+                        <b>Email: </b>
+                        <p>ingeNUity@st.niituniversity.in</p>
+                        <br>
+                        <b>Call:</b>
+                        <p>Vedank Parashar: +91 99904 99107<br>
+			Anushree Satpoddar: +91 98335 70911<br>
+			Prarit Mehta: +91 99994 98080 
+			</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="socials">
+                        <h2>Socials</h2><br>
+                        <ul class="social-links">
+                           <li><a href="https://www.instagram.com/ingenuity_fest" target="_blank"><img class="social" src="assets/img/socials/instagram.png"></a></li>
+                           <li><a href="https://www.facebook.com/ingenuity.NU" target="_blank"><img class="social" src="assets/img/socials/facebook.png"></a></li>
+                           <li><a href="https://www.linkedin.com/company/ingenuity-cultural-fest" target="_blank"><img class="social" src="assets/img/socials/linkedin.png"></a></li>
+                           <li><a href="https://www.youtube.com/@TheIngenuityfest" target="_blank"><img class="social" src="assets/img/socials/youtube.png"></a></li>
+                           <li><a href="https://discord.gg/HZMH5SEEsw" target="_blank"><img class="social" src="assets/img/socials/discord.png"></a></li>
+                            
+                           
+                           
+                           
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <!-- Javascript files -->
+        <!-- Java Script
+   ================================================== --> 
+   <script src="assets/js/jquery-2.1.3.min.js"></script>
+   <script src="assets/js/plugins.js"></script>
+   <script src="assets/js/main_2.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+    </body>
+</html>

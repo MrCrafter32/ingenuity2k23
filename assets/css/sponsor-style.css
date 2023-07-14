@@ -1,0 +1,129 @@
+.sponsors{
+    margin: 50px;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.title-sponsor-description{
+    background-color: #512888;
+    width: 75%;
+    margin: auto;
+    padding: 60px;
+}
+.ass-sponsor{
+    width: 100%;
+    display: flex;
+}
+.co-sponsor{
+    width: 100%;
+    display: flex;
+}
+.sponsor-wrapper{
+    width: 100%;
+    padding: 0px;
+}
+.sponsor-description{
+    /*background-color: #67023D;*/
+    width: 50%;
+    padding:50px;
+    /*border-radius: 15px;*/
+}
+.sponsor-logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 15px;*/
+}
+.sponsor-logo img{
+    width:65%;
+}
+.sponsors p{
+    font-size: 15px;
+    padding: 10px;
+}
+.sponsors h1{
+    font-size: 54px;
+    padding-bottom: 40px;
+}
+.sponsors h2{
+    font-size: 36px;
+    padding: 25px;
+    font-weight: 400;
+}
+.sponsors h4{
+    font-size: 32px;
+    font-weight: 400;
+}
+.sponsors h5{
+	font-weight: 400;
+}
+.sponsors img{
+    padding: 14px;
+    width: 25%;
+}
+.title-sponsor img{
+	width: 50%;
+}
+.partner-row{
+    padding: 10px;
+    display: flex;
+}
+.partner img{
+    width: 75%;
+}
+.partner{
+    width: 30%;
+    display: inline-block;
+    margin: auto;
+}
+
+@media (max-width: 768px){
+    .sponsors{
+        margin: 45px;
+    }
+	.title-sponsor img{
+        width: 75%;
+    }
+    .ass-sponsor{
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .co-sponsor{
+        flex-direction: column;
+    }
+    .sponsor-description{
+        order: 2;
+        width: 100%;
+    }
+    .sponsor-logo{
+        order: 1;
+        width: 95%;
+    }
+    .partner-row{
+        flex-direction: column;
+    }
+    .partner{
+        width: 95%;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .partner img{
+        width: 100%;
+    }
+	.tier-3-sponsor img{
+		width: 100%;
+	}
+}
+@media (max-width: 425px){
+    .sponsor-logo{
+        width: 100%;
+    }
+    .sponsor-logo img{
+        width: 100%;
+    }
+    .partner{
+        width: 95%;
+    }
+}
